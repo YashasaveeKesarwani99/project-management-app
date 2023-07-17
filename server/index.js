@@ -4,11 +4,13 @@ const colors = require('colors')
 const schema = require('./schema/schema');
 const { connectDB } = require('./config/db');
 require('dotenv').config();
-
+const cors = require('cors')
 
 const port = process.env.PORT || 5000;
 
 const app = express();
+
+app.use(cors())
 
 connectDB()
 
