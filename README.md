@@ -10,3 +10,5 @@ this app is basically a way to manage the life cycle of a project.
 - setup a `DB` in mongodb
 - add a `.env` with `PORT` , `NODE_ENV` and the `MONGO_URI` variables
 - run the scripts as mentioned in `package.json`
+
+![thumbnail](thumbnail.png)
